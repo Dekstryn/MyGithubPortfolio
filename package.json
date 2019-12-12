@@ -31,9 +31,7 @@
     "url": "https://github.com/Dekstryn/MyGithubPortfolio/issues"
   },
   "homepage": "https://github.com/Dekstryn/MyGithubPortfolio#readme",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.7.3",
     "concat": "^1.0.3",
