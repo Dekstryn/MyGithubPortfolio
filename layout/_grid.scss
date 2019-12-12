@@ -1,3 +1,4 @@
-grid-template-areas: "header header header"
+main{ display: grid};
+main{ grid-template-areas: "header header header"
                      "content . menu"
-                     "footer footer footer";
+                     "footer footer footer"};
