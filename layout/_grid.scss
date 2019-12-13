@@ -2,15 +2,21 @@ main{ display: grid;}
 main{ grid-template-areas: "header header header"
                      "content . menu"
                      "footer footer footer";}
+body{
+  background-color: gainsboro;
+}
 .header{
   grid-area: header;
+  margin: 8px auto;
 }
 .content{
   grid-area: content;
+  margin: 8px auto;
 }
 .menu{
   grid-area: menu;
 }
 .footer{
   grid-area: footer;
+  margin: 8px auto;
 }

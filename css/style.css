@@ -302,3 +302,41 @@ template {
  */
 [hidden] {
   display: none; }
+
+main {
+  display: grid; }
+
+main {
+  grid-template-areas: "header header header" "content . menu" "footer footer footer"; }
+
+body {
+  background-color: gainsboro; }
+
+.header {
+  grid-area: header;
+  margin: 8px auto; }
+
+.content {
+  grid-area: content;
+  margin: 8px auto; }
+
+.menu {
+  grid-area: menu; }
+
+.footer {
+  grid-area: footer;
+  margin: 8px auto; }
+
+th, td {
+  border: solid;
+  margin: 2px auto;
+  padding: 6px; }
+
+.table__footer {
+  display: inline-block; }
+
+main {
+  font-family: 'Gelasio', serif; }
+
+h1 {
+  font-style: italic; }
