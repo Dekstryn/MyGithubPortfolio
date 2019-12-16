@@ -5,7 +5,7 @@ fetch('https://api.github.com/users/dekstryn/repos?sort=updates')
 .then(resp => {
     const repos = resp;
     for (const repo of repos) {
-        table.innerHTML += `<tr><th> ${repo.name} </th><th> ${repo.description} </th><th> <a href="${repo.html_url}">${repo.html_url}</a> </th><th> ${repo.created_at} </th><th> ${repo.updated_at} </th></tr>`;
+        table.innerHTML += `<tr><th> ${repo.name} </th><th> ${repo.description ? repo.description : "Brak opisu"} </th><th> <a href="${repo.html_url}">${repo.html_url}</a> </th><th> ${repo.created_at} </th><th> ${repo.updated_at} </th></tr>`;
     }
 })
 .catch(err =>{
