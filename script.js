@@ -12,6 +12,3 @@ fetch('https://api.github.com/users/dekstryn/repos?sort=updates')
     console.log(err);
 })
 
-function newFunction() {
-    '<th>';
-}
